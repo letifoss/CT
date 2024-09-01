@@ -8,7 +8,7 @@ function Inicio() {
         <div className="d-flex flex-column align-items-center mt-5" style={{ width: '300px' }} >
           <p>
             <button
-              className="buttinfo"
+              className="buttinfo d-flex flex-column align-items-center"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseExample1"
@@ -16,6 +16,7 @@ function Inicio() {
               aria-controls="collapseExample1"
             >
               <h2>¿Qué es Cerro tours?</h2>
+              <i class="bi bi-arrow-down-circle iconarrow" ></i>
             </button>
           </p>
           <div className="collapse-container mb-5">
@@ -32,7 +33,7 @@ function Inicio() {
         <div className="d-flex flex-column align-items-center mt-5" style={{ width: '300px' }}>
           <p>
             <button
-              className="buttinfo"
+              className="buttinfo d-flex flex-column align-items-center"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#collapseExample2"
@@ -40,6 +41,7 @@ function Inicio() {
               aria-controls="collapseExample2"
             >
               <h2>¿Por qué sostenible?</h2>
+              <i class="bi bi-arrow-down-circle iconarrow"></i>
             </button>
           </p>
           <div className="collapse-container mb-5">

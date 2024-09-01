@@ -80,6 +80,11 @@ body{
     font-weight: bold;
 }
 
+.title button a{
+    color: white;
+    text-decoration: none;
+}
+
 .navbar .nav-link {
     font-weight: 600;
     color: #ffffff !important;
@@ -131,6 +136,24 @@ p{
     background: rgba(0, 0, 0, 0.7);
     z-index: 2;
 }
+
+.iconarrow{
+    font-size: 28px;
+    animation: arrow 2s ;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+    0%{
+        transform: translateY(-1px);
+        color: rgb(27, 27, 27);
+    }
+    100%{
+        transform: translateY(10px);
+        color:#d5d5d5;
+    }
+    }
 
 .collapse-container{
     z-index: 10;

@@ -7,7 +7,7 @@ function Footer(){
             <div class="d-flex align-items-center">
             <img src={logo} alt="" width="80px" height="80px" class="mx-4" />
             <div>
-                <a class="nav-link mb-3" aria-current="page" href="#home"><b>Volver al inicio</b></a>
+                <a class="nav-link mb-3" aria-current="page" href="#"><b>Volver al inicio</b></a>
                 <a class="nav-link mb-2" href="#datos">Datos de interés</a>
                 <a class="nav-link mb-2" href="#form">Planifica tu viaje</a>
                 <a class="nav-link mb-2" href="#">Contacto</a>

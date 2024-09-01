@@ -30,7 +30,7 @@ function Menu (){
       </nav>
       <div className="title ">
         <h1 className="position-absolute">¿Querés conocer el Cerro de Montevideo?</h1>
-        <button>MÁS INFORMACIÓN</button>
+        <button><a href="#form">MÁS INFORMACIÓN</a></button>
     </div>
     </header>
     )
