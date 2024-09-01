@@ -13,13 +13,13 @@ function Menu (){
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="">Sobre nosotros</a>
+                <a className="nav-link" aria-current="page" href="#home">Sobre nosotros</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="">Datos de interés</a>
+                <a className="nav-link" href="#datos">Datos de interés</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="">Planifica tu viaje</a>
+                <a className="nav-link" href="#form">Planifica tu viaje</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">Contacto</a>
