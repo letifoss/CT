@@ -1,23 +1,68 @@
-import logo from './logo.svg';
 import './App.css';
+import Menu from './componentes/Menu';
+import Inicio from './componentes/Inicio';
+import Vym from './componentes/Vym';
+import Datos from './componentes/Datos';
+import Planifica from './componentes/Planifica';
+import Footer from './componentes/Footer';
+import Imagenes from './componentes/Imagenes';
+
+import imagen1 from './imagenes/1.jpeg';
+import imagen2 from './imagenes/8.jpeg';
+import imagen3 from './imagenes/15.jpeg';
+
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      once: false, 
+    });
+  }, []);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App scope-one-regular">
+      <Menu />
+      <Inicio />
+      <Imagenes 
+        photo1={imagen1}
+        alt1="imagen en el cerro"
+
+        photo2={imagen2}
+        alt2="imagen en el cerro"
+
+        photo3={imagen3}
+        alt3="imagen en el cerro"
+      />
+      <Vym />
+      <Imagenes 
+        photo1={imagen1}
+        alt1="imagen en el cerro"
+
+        photo2={imagen2}
+        alt2="imagen en el cerro"
+
+        photo3={imagen3}
+        alt3="imagen en el cerro"
+      />
+      <Datos />
+      <Imagenes 
+        photo1={imagen1}
+        alt1="imagen en el cerro"
+
+        photo2={imagen2}
+        alt2="imagen en el cerro"
+
+        photo3={imagen3}
+        alt3="imagen en el cerro"
+      />
+      <Planifica />
+      <Footer />
     </div>
   );
 }
