@@ -39,17 +39,7 @@ function App() {
         photo3={imagen3}
         alt3="imagen en el cerro"
       />
-      <Vym />
-      <Imagenes 
-        photo1={imagen1}
-        alt1="imagen en el cerro"
 
-        photo2={imagen2}
-        alt2="imagen en el cerro"
-
-        photo3={imagen3}
-        alt3="imagen en el cerro"
-      />
       <Datos />
       <Imagenes 
         photo1={imagen1}
@@ -61,6 +51,7 @@ function App() {
         photo3={imagen3}
         alt3="imagen en el cerro"
       />
+      <Vym />
       <Planifica />
       <Footer />
     </div>

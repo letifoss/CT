@@ -57,7 +57,7 @@ body{
     color: white;
     min-width: 45%;
     z-index: 10;
-    text-shadow: 1px 1px 10px rgb(232, 235, 255);
+    text-shadow: 1px 1px 10px rgb(177, 177, 177);
 }
 .title button{
     min-width: 100px;
@@ -192,7 +192,7 @@ p{
     z-index: 10;
     font-weight: 500;
 }
-.boxinfo{
+.boxinfo1{
     width: 400px;
     min-height: 200px;
     background-color: rgb(255, 255, 255, 0.5);
@@ -202,14 +202,32 @@ p{
     align-items: center;
     box-shadow: 0 0 8px rgba(255, 255, 255, 0.829);
     cursor: pointer;
-    font-size:1em;
+    font-size:0.9em;
     z-index: 10;
 }
-.boxinfo:hover{
+.boxinfo1:hover{
     background-color: #ffffffd7;
 
 }
 
+.boxinfo2{
+    width: 600px;
+    min-height: 200px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.829);
+    cursor: pointer;
+    font-size:0.9em;
+    z-index: 10;
+}
+
+.boxinfo2:hover{
+    background-color: #ffffffd7;
+
+}
 .images{
     width: 100%;
     min-height: 400px;
