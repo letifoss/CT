@@ -6,6 +6,7 @@ import Datos from './componentes/Datos';
 import Planifica from './componentes/Planifica';
 import Footer from './componentes/Footer';
 import Imagenes from './componentes/Imagenes';
+import Circuitos from './componentes/Circuitos';
 
 import imagen1 from './imagenes/1.jpeg';
 import imagen2 from './imagenes/8.jpeg';
@@ -52,6 +53,7 @@ function App() {
         alt3="imagen en el cerro"
       />
       <Vym />
+      <Circuitos />
       <Planifica />
       <Footer />
     </div>

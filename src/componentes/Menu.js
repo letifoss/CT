@@ -19,10 +19,10 @@ function Menu (){
                 <a className="nav-link" href="#datos">Datos de interés</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#form">Planifica tu viaje</a>
+                <a className="nav-link" href="#circuits">Circuitos</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Contacto</a>
+                <a className="nav-link" href="#form">Planifica tu viaje</a>
               </li>
             </ul>
           </div>

@@ -26,9 +26,9 @@ function Planifica(){
     return(
         <section id="form" class="content forms d-flex flex-column" >
         <h2 class="mt-5 mb-5 text-center" data-aos="fade-up" >Planifica tu viaje!</h2>
-        <div class="d-flex justify-content-evenly mt-3" >
+        <div class="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-center justify-content-md-center justify-content-lg-center mt-3" >
             <div class="d-flex flex-column align-items-center" >
-            <form action="" class="d-flex flex-column " onSubmit={handleSendToWhatsApp} >
+            <form action="" class="d-flex flex-column p-4" onSubmit={handleSendToWhatsApp} >
                 <input type="text" placeholder="Nombre completo" class="p-1 m-1" value={name} onChange={(e) => setName(e.target.value)}/>
                 <input type="email" placeholder="Correo electrónico"class="p-1 m-1 " value={email} onChange={(e) => setEmail(e.target.value)}/>
                 <input type="tel" placeholder="Teléfono de contacto"class="p-1 m-1" value={tel} onChange={(e) => setTel(e.target.value)}/>
@@ -39,8 +39,9 @@ function Planifica(){
             <button type="submit" class="p-1 buttonsub rounded" onClick={handleSendToWhatsApp}>Enviar</button>
             
             </div>
-        <div class="d-flex flex-column w-25">
-            <p class="text-white" >Acá podemos poner algun texto relacionado con la planificacion el viaje, precios, poner las redes sociales etc etc o solo dejar el formulario</p>
+        <div class="d-flex flex-column align-items-center m-5 w-50">
+            <p className="text-white fs-5">Contáctanos para más información!</p>
+            <p class="text-white fs-5"> <a href="https://wa.me/+59891626636"><i class="bi bi-whatsapp icon m-2"></i></a>091 626 636</p>
         </div>
         </div>
         </section>

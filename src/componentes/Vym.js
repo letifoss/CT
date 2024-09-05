@@ -4,7 +4,7 @@ function Vym (){
     return(
     <section id="vym" className="content d-flex flex-column justify-content-center">
         <h2 className="mt-5 text-center" data-aos="fade-up" >Visión y Misión </h2> 
-        <div className=" d-flex justify-content-center"data-aos="fade-up" >
+        <div className=" d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-center align-items-center" data-aos="fade-up" >
         <div className="d-flex flex-column justify-content-start mt-5 boxinfo2 m-4">
             <h4 className="mt-2 text-center">Visión</h4>
             <p className="p-3 w-md-75 mt-3 text-center "> Proponemos un escenario de fruto posible para la comunidad local a través de la planificación turística, de generar espacios de cuidados y de generar recursos para la conservación del medio.</p>
