@@ -382,7 +382,11 @@ form{
     .carousel{
         width: 80%;
     }
-   
+    .boxinfo2{
+        width: 345px;
+        height: 440px;
+        padding: 5px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -431,8 +435,14 @@ form{
     .footer .nav-link{
         font-size: 1.1em;
     }
-
+    .boxinfo2{
+        width: 310px;
+        height: 470px;
+        padding: 5px;
+    }
 }
+
+
 
 @media screen and (max-width: 360px) {
     .buttinfo{
