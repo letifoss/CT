@@ -414,7 +414,7 @@ form{
         text-shadow: 1px 1px 10px rgb(202, 202, 202);
     }
     .carousel{
-        width: 90%;
+        width: 150%;
     }
     .buttonsub{
         color: rgb(0, 0, 0);
@@ -437,5 +437,7 @@ form{
     .buttinfo{
         width: 260px;
     }
-
+    .carousel{
+        width: 140%;
+    }
 }
