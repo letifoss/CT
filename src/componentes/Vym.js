@@ -12,9 +12,9 @@ function Vym (){
         </div>
         <div className="d-flex flex-column justify-content-start mt-5 boxinfo2 m-4" >
             <h4 className="mt-2 text-center">Misión</h4>
-            <p className=" w-md-75 mt-3 text-center">Desarrollar la actividad turística de manera responsable, asegurando así para las futuras generaciones la conservación del patrimonio natural y cultural tangible e intangible.</p>
-            <p className=" w-md-75 mt-3 text-center">Revalorización de espacios con potencial turístico para que puedan convertirse en un recurso turístico.</p>
-            <p className=" w-md-75 mt-3 text-center">Trabajar en una nueva cultura de visitantes comprometidos con el medio ambiente y la comunidad local.</p>
+            <p className="p-3 w-md-75 mt-3 text-center">Desarrollar la actividad turística de manera responsable, asegurando así para las futuras generaciones la conservación del patrimonio natural y cultural tangible e intangible.</p>
+            <p className="p-3 w-md-75 mt-3 text-center">Revalorización de espacios con potencial turístico para que puedan convertirse en un recurso turístico.</p>
+            <p className="p-3 w-md-75 mt-3 text-center">Trabajar en una nueva cultura de visitantes comprometidos con el medio ambiente y la comunidad local.</p>
         </div>
         </div>
     </section>
