@@ -9,7 +9,7 @@ function Circuitos(){
         <div id="circuits" className="circuitos">
         <h2 class="mt-5 text-center" data-aos="fade-up" >Conocé nuestros circuitos</h2>
         <div className="d-flex flex-column align-items-center mt-5 w-50" >
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade w-75 mb-5" >
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade mb-5" >
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
