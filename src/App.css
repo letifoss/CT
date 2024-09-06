@@ -313,6 +313,18 @@ form{
     box-shadow: 1px 1px 10px rgb(90, 90, 90);
     background-color: rgba(137, 255, 226, 0.695);
 }
+
+.atm{
+    min-height: 200px;
+    background-color: rgba(228, 228, 228, 0.712);
+    display: flex;
+    justify-content: center;;
+}
+.atm h5{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 50px;
+}
 .footer{
     background-color: rgb(228, 228, 228);
     min-height: 200px;

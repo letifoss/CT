@@ -1,4 +1,5 @@
 import React from "react";
+import logomv from "../imagenes/mv.jpeg"
 
 function Datos(){
     return(
@@ -6,9 +7,9 @@ function Datos(){
         <h2 class="mt-5 text-center" data-aos="fade-up" >Datos de interés</h2>
         <div class="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-center mt-5 mb-5 flex-wrap"data-aos="fade-up"  >
             <div class="boxinfo1 m-2"><p class="p-3 w-md-75 mt-3 text-center">Entre el año 2022 y 2023, más lo que va de este 2024, visitaron nuestro barrio y el Oeste a través de Cerro Tours unas <b>400</b> personas</p></div>
-             <div class="boxinfo1 m-2"><p class="p-3 w-md-75 mt-3 text-center">En 2024, la empresa es reconocida por la División de Turismo de la IMM, como <b><i>empresa turística reconocida por prácticas sostenibles</i></b></p></div>
+            <div class="boxinfo1 m-2"><p class="p-3 w-md-75 mt-3 text-center">En 2024, la empresa es reconocida por la División de Turismo de la IMM, con el sello <b>Montevideo más Verde</b>, así como <b><i>empresa turística reconocida por prácticas sostenibles</i></b></p></div>
             <div class="boxinfo1 m-2"><p class="p-3 w-md-75 mt-3 text-center">Ganamos el fondo DTI en la categoría <b>turismo sostenible</b> 2024</p></div>
-            <div class="boxinfo1 m-2"><p class="p-3 w-md-75 mt-3 text-center">Formamos parte de la <b>ATM (Asociación Turística de Montevideo)</b></p></div>
+            <div class="boxinfo1 m-2"><p class="p-3 w-md-75 mt-3 text-center">Formamos parte de la <b>ATM (Asociación Turística de Montevideo)</b> y nuestra empresa está registrada en Mintur 92</p></div>
         </div>
     </section>
 
