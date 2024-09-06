@@ -450,7 +450,7 @@ form{
         text-shadow: 1px 1px 10px rgb(202, 202, 202);
     }
     .carousel{
-        width: 150%;
+        width: 130%;
     }
     .buttonsub{
         color: rgb(0, 0, 0);
@@ -471,6 +471,11 @@ form{
         height: 470px;
         padding: 5px;
     }
+    .atm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
@@ -480,6 +485,6 @@ form{
         width: 260px;
     }
     .carousel{
-        width: 140%;
+        width: 110%;
     }
 }
