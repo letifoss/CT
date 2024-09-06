@@ -18,16 +18,16 @@ function Circuitos(){
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src={imagen1c}  class="d-block w-100" alt="" width={300}/>
+            <img src={imagen1c}  class="d-block w-100" alt="imagen circuito 1 experiencer" width={300}/>
             </div>
             <div class="carousel-item">
-            <img src={imagen2c} class="d-block w-100" alt=""width={300} />
+            <img src={imagen2c} class="d-block w-100" alt="imagen circuito 2 paisaje cultural"width={300} />
             </div>
             <div class="carousel-item">
-            <img src={imagen3c} class="d-block w-100" alt="" width={300}/>
+            <img src={imagen3c} class="d-block w-100" alt="imagen circuito 3 paisaje oeste natural" width={300}/>
             </div>
             <div class="carousel-item">
-            <img src={imagen4c} class="d-block w-100" alt="" width={300}/>
+            <img src={imagen4c} class="d-block w-100" alt="imagen circuito 3 el camino del inmigrante" width={300}/>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

@@ -320,7 +320,7 @@ form{
     display: flex;
     justify-content: center;;
 }
-.atm h5{
+.atm p{
     font-size: 1.5em;
     font-weight: 600;
     margin: 50px;
