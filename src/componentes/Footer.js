@@ -13,10 +13,15 @@ function Footer(){
                 <a class="nav-link mb-2" href="#circuits">Circuitos</a>
             </div>
             </div>
-            <div>
+            <div className="d-flex flex-column align-items-center"> 
+                <div className="p-3">
+                    <h6>Visitá nuestras redes sociales!</h6>
+                </div>
+                <div>
                 <a href="https://www.instagram.com/cerrotours/" target="_blank"><i class="bi bi-instagram icon"></i></a>
                 <a href="https://www.facebook.com/people/CERRO-TOURS/100085263177912/"target="_blank"><i class="bi bi-facebook icon"></i></a>
                 <a href="https://wa.me/+59891626636"><i class="bi bi-whatsapp icon"target="_blank"></i></a>
+                </div>
             </div>
         </footer>
     )
