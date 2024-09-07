@@ -8,6 +8,7 @@ import Footer from './componentes/Footer';
 import Imagenes from './componentes/Imagenes';
 import Circuitos from './componentes/Circuitos';
 import Atm from './componentes/Atm';
+import Lugares from './componentes/Lugares';
 
 import imagen1 from './imagenes/1.jpeg';
 import imagen2 from './imagenes/8.jpeg';
@@ -31,6 +32,7 @@ function App() {
     <div className="App scope-one-regular">
       <Menu />
       <Inicio />
+      <Lugares />
       <Imagenes 
         photo1={imagen1}
         alt1="imagen en el cerro"
