@@ -180,7 +180,11 @@ p{
 }
 
 .lugares{
-    background:#f5f5f5cc;
+    background-image: url(./imagenes/13.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     min-height: 350px;
     width: 100%;
     margin-top: 20px;
@@ -191,6 +195,27 @@ p{
     align-items: center;
     padding: 10px;
 }
+.zindex{
+    z-index: 40;
+}
+.zindex:hover{
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.zindex img:hover{
+    box-shadow: 0 0 8px white;
+}
+.lugares::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
 .boxcol{
     width: 500px;
     min-height: 200px;
