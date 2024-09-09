@@ -12,7 +12,7 @@ function Planifica(){
    
     
     const buildWhatsAppLink = () => {
-        const baseURL = "https://wa.me/+59894451482";
+        const baseURL = "https://wa.me/+59891626636";
         return `${baseURL}?text=Hola,%20mi%20nombre%20es%20${encodeURIComponent(name)}.%0ATotal%20de%20personas:%20${encodeURIComponent(people)}.%0AQuisieramos%20viajar%20en%20la%20siguiente%20fecha:%20${encodeURIComponent(date)}.%0ANúmero%20de%20contacto:%20${encodeURIComponent(tel)}.%0AMensaje%20opcional:%20${encodeURIComponent(message)}`;
     };
     

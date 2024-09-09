@@ -13,6 +13,14 @@ import Lugares from './componentes/Lugares';
 import imagen1 from './imagenes/1.jpeg';
 import imagen2 from './imagenes/8.jpeg';
 import imagen3 from './imagenes/15.jpeg';
+import imagen4 from './imagenes/21.jpeg'
+import imagen5 from './imagenes/12.jpeg'
+import imagen6 from './imagenes/23.jpeg'
+import imagen7 from './imagenes/24.jpeg'
+import imagen8 from './imagenes/17.jpg'
+import imagen9 from './imagenes/19.jpeg'
+import imagen10 from './imagenes/10.jpeg'
+
 
 import { useEffect } from 'react';
 import AOS from 'aos';
@@ -34,7 +42,7 @@ function App() {
       <Inicio />
       <Lugares />
       <Imagenes 
-        photo1={imagen1}
+        photo1={imagen4}
         alt1="imagen en el cerro"
 
         photo2={imagen2}
@@ -49,10 +57,10 @@ function App() {
         photo1={imagen1}
         alt1="imagen en el cerro"
 
-        photo2={imagen2}
+        photo2={imagen8}
         alt2="imagen en el cerro"
 
-        photo3={imagen3}
+        photo3={imagen6}
         alt3="imagen en el cerro"
       />
       <Circuitos />

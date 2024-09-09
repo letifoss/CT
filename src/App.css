@@ -197,6 +197,9 @@ p{
 }
 .zindex{
     z-index: 40;
+    cursor: pointer;
+    width: 320px;
+    margin: 10px;
 }
 .zindex:hover{
     transform: scale(1.05);
@@ -481,6 +484,11 @@ form{
 @media screen and (max-width: 500px) {
     .boxinfo2{
         width: 280px;
+    }
+    .zindex img{
+        width: 280px;
+        height: 280px;
+        margin: 10px;
     }
     .icon {
         font-size: 1.5em;
