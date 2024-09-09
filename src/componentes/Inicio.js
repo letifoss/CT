@@ -4,7 +4,7 @@ import '../App.css';
 function Inicio() {
   return (
     <section id="home" className="content d-flex home" >
-      <div className="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-evenly align-items-center align-items-md-start align-items-lg-start align-items-xl-start mt-5" style={{ gap: '40px', width: '100%' }} >
+      <div className="d-flex flex-column flex-md-column flex-lg-row flex-xl-row justify-content-evenly align-items-center align-items-md-center align-items-lg-start align-items-xl-start mt-5" style={{ gap: '40px', width: '100%' }} >
         <div className="d-flex flex-column align-items-center mt-5" style={{ width: '300px' }} >
           <p>
             <button
@@ -28,6 +28,11 @@ function Inicio() {
             </div>
           </div>
         </div>
+
+
+         <div className="video">
+            <lite-youtube videoid="it4wb4Z6HFQ"></lite-youtube>
+          </div>
 
 
         <div className="d-flex flex-column align-items-center mt-5" style={{ width: '300px' }}>

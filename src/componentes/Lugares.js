@@ -14,7 +14,7 @@ function Lugares(){
         <div className="d-flex justify-content-center">
         <div className="lugares" data-aos="fade-up">
         <h2 className="text-center mt-4 zindex text-white w-75" >Lugares que podes conocer</h2>
-        <div className="d-flex flex-row justify-content-center flex-wrap">
+        <div className="d-flex flex-row justify-content-center flex-wrap ">
             <div className="d-flex flex-column align-items-center p-2 zindex">
                 <img src={img1} alt="" width={320} height={350} />
                 <p className="p-2 text-white">Fortaleza Gral. Artigas</p>

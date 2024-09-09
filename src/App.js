@@ -6,6 +6,7 @@ import Datos from './componentes/Datos';
 import Planifica from './componentes/Planifica';
 import Footer from './componentes/Footer';
 import Imagenes from './componentes/Imagenes';
+import Imagenes1 from './componentes/Imagenes1';
 import Circuitos from './componentes/Circuitos';
 import Atm from './componentes/Atm';
 import Lugares from './componentes/Lugares';
@@ -41,7 +42,7 @@ function App() {
       <Menu />
       <Inicio />
       <Lugares />
-      <Imagenes 
+      <Imagenes1 
         photo1={imagen4}
         alt1="imagen en el cerro"
 
