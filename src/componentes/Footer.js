@@ -15,7 +15,7 @@ function Footer(){
             </div>
             <div className="d-flex flex-column align-items-center"> 
                 <div className="p-3">
-                    <h6>Visitá nuestras redes sociales!</h6>
+                    <h6 className="fw-bold">Visitá nuestras redes sociales!</h6>
                 </div>
                 <div>
                 <a href="https://www.instagram.com/cerrotours/" target="_blank"><i class="bi bi-instagram icon"></i></a>
