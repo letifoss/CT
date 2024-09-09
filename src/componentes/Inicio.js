@@ -52,6 +52,7 @@ function Inicio() {
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );

@@ -6,8 +6,8 @@ import imagen4c from "../imagenes/c4.jpeg"
 
 function Circuitos(){
     return(
-        <div id="circuits" className="circuitos">
-        <h2 class="mt-5 text-center" data-aos="fade-up" >Conocé nuestros circuitos</h2>
+        <div id="circuitos" className="circuitos">
+        <h2 class="mt-5 text-center" data-aos="fade-up" >Conoce nuestros circuitos</h2>
         <div className="d-flex flex-column align-items-center mt-5 w-50" >
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade mb-5" >
         <div class="carousel-indicators">

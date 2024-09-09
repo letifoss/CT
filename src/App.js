@@ -11,9 +11,9 @@ import Atm from './componentes/Atm';
 import Lugares from './componentes/Lugares';
 
 import imagen1 from './imagenes/1.jpeg';
-import imagen2 from './imagenes/8.jpeg';
-import imagen3 from './imagenes/15.jpeg';
-import imagen4 from './imagenes/21.jpeg'
+import imagen2 from './imagenes/im2.jpeg';
+import imagen3 from './imagenes/im3.jpeg';
+import imagen4 from './imagenes/im1.jpeg'
 import imagen5 from './imagenes/12.jpeg'
 import imagen6 from './imagenes/23.jpeg'
 import imagen7 from './imagenes/24.jpeg'

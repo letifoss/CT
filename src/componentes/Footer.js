@@ -8,9 +8,9 @@ function Footer(){
             <img src={logo} alt="" width="80px" height="80px" class="mx-4" />
             <div>
                 <a class="nav-link mb-3" aria-current="page" href="#"><b>Volver al inicio</b></a>
-                <a class="nav-link mb-2" href="#datos">Datos de interés</a>
-                <a class="nav-link mb-2" href="#form">Planifica tu viaje</a>
-                <a class="nav-link mb-2" href="#circuits">Circuitos</a>
+                <a class="nav-link mb-2" href="#datosdeinteres">Datos de interés</a>
+                <a class="nav-link mb-2" href="#planificatuviaje">Planifica tu viaje</a>
+                <a class="nav-link mb-2" href="#circuitos">Circuitos</a>
             </div>
             </div>
             <div className="d-flex flex-column align-items-center"> 

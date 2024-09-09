@@ -24,7 +24,7 @@ function Planifica(){
     };
 
     return(
-        <section id="form" class="content forms d-flex flex-column" >
+        <section id="planificatuviaje" class="content forms d-flex flex-column" >
         <h2 class="mt-5 mb-5 text-center" data-aos="fade-up" >Planifica tu viaje!</h2>
         <div class="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-center justify-content-md-center justify-content-lg-center mt-3" >
             <div class="d-flex flex-column align-items-center" >

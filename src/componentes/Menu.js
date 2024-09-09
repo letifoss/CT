@@ -15,16 +15,16 @@ function Menu (){
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#home">Sobre nosotros</a>
+                <a className="nav-link" aria-current="page" href="#inicio">Sobre nosotros</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#datos">Datos de interés</a>
+                <a className="nav-link" href="#datosdeinteres">Datos de interés</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#circuits">Circuitos</a>
+                <a className="nav-link" href="#circuitos">Circuitos</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#form">Planifica tu viaje</a>
+                <a className="nav-link" href="#planificatuviaje">Planifica tu viaje</a>
               </li>
             </ul>
           </div>
