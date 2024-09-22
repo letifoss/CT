@@ -10,6 +10,9 @@ import Imagenes1 from './componentes/Imagenes1';
 import Circuitos from './componentes/Circuitos';
 import Atm from './componentes/Atm';
 import Lugares from './componentes/Lugares';
+import Navbar from './componentes/Navbar';
+import Header from './componentes/Header';
+
 
 import imagen1 from './imagenes/1.jpeg';
 import imagen2 from './imagenes/im2.jpeg';
@@ -39,20 +42,10 @@ function App() {
 
   return (
     <div className="App scope-one-regular">
-      <Menu />
+      <Navbar />
+      <Header />
       <Inicio />
       <Lugares />
-      <Imagenes1 
-        photo1={imagen4}
-        alt1="imagen en el cerro"
-
-        photo2={imagen2}
-        alt2="imagen en el cerro"
-
-        photo3={imagen3}
-        alt3="imagen en el cerro"
-      />
-
       <Datos />
       <Imagenes 
         photo1={imagen1}

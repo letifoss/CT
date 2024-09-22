@@ -11,43 +11,69 @@ import img8 from "../imagenes/l9.jpg"
 
 function Lugares(){
     return(
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center w-100">
         <div className="lugares" data-aos="fade-up">
         <h2 className="text-center mt-4 zindex text-white w-75" >Lugares que podes conocer</h2>
-        <div className="d-flex flex-row justify-content-center flex-wrap ">
-            <div className="d-flex flex-column align-items-center p-2 zindex">
-                <img src={img1} alt="" width={320} height={350} />
-                <p className="p-2 text-white">Fortaleza Gral. Artigas</p>
+        <div id="carouselExampleCaptions" class="carousel slide places">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src={img1} class="d-block w-100 imgcar" alt="..." />
+                <div class="carousel-caption d-md-block">
+                    <h5>First slide label</h5>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src={img2} class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-md-block">
+                    <h5>Second slide label</h5>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src={img3} class="d-block w-100" alt="..." /> 
+                <div class="carousel-caption d-md-block">
+                    <h5>Third slide label</h5>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src={img4} class="d-block w-100" alt="..." /> 
+                <div class="carousel-caption d-md-block">
+                    <h5>Third slide label</h5>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src={img5} class="d-block w-100" alt="..." /> 
+                <div class="carousel-caption d-md-block">
+                    <h5>Third slide label</h5>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src={img6} class="d-block w-100" alt="..." /> 
+                <div class="carousel-caption d-md-block">
+                    <h5>Third slide label</h5>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src={img7} class="d-block w-100" alt="..." /> 
+                <div class="carousel-caption d-md-block">
+                    <h5>Third slide label</h5>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src={img8} class="d-block w-100" alt="..." /> 
+                <div class="carousel-caption d-md-block">
+                    <h5>Third slide label</h5>
+                </div>
+                </div>
             </div>
-            <div className="d-flex flex-column align-items-center p-2 zindex">
-                <img src={img2} alt="" width={320} height={350}/>
-                <p className="p-2 text-white">PTI  Cerro</p>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
             </div>
-            <div className="d-flex flex-column align-items-center p-2 zindex">
-                <img src={img3} alt="" width={320}height={350} />
-                <p className="p-2 text-white">Mural del Troccoli</p>
-            </div>
-            <div className="d-flex flex-column align-items-center p-2 zindex">
-                <img src={img4} alt="" width={320} height={350}/>
-                <p className="p-2 text-white">Plaza del Inmigrante</p>
-            </div>
-            <div className="d-flex flex-column align-items-center p-2 zindex">
-                <img src={img5} alt="" width={320} height={350}/>
-                <p className="p-2 text-white">CC.Casa de la Polvora</p>
-            </div>
-            <div className="d-flex flex-column align-items-center p-2 zindex">
-                <img src={img6} alt="" width={320} height={350} />
-                <p className="p-2 text-white w-100 text-center">Memorial de los Detenidos Desaparecidos</p>
-            </div>
-            <div className="d-flex flex-column align-items-center p-2 zindex">
-                <img src={img7} alt="" width={320} height={350}/>
-                <p className="p-2 text-white">Casa del señor de los Azulejos</p>
-            </div>
-            <div className="d-flex flex-column align-items-center p-2 zindex">
-                <img src={img8} alt="" width={320}height={350} />
-                <p className="p-2 text-white">Teatro Florencio Sanchez</p>
-            </div>
-        </div>
         </div>
         </div>
     )
