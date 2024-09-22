@@ -13,11 +13,11 @@ function Lugares(){
     return(
         <div className="d-flex justify-content-center w-100">
         <div className="lugares" data-aos="fade-up">
-        <h2 className="text-center mt-4 zindex text-white w-75" >Lugares que podes conocer</h2>
+        <h2 className="text-center mt-4 zindex text-white w-75">Lugares que podes conocer</h2>
         <div id="carouselExampleCaptions" class="carousel slide places">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src={img1} class="d-block w-100 imgcar" alt="..." />
+                <img src={img1} class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-md-block">
                     <h5>First slide label</h5>
                 </div>
