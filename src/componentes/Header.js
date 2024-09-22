@@ -6,11 +6,11 @@ import header3 from '../imagenes/header3.jpeg';
 
 function Header (){
     return(
-        <div className="w-100">
+        <div className="">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src={header1} class="d-block w-100" alt="..."/>
+            <img src={header3} class="d-block w-100" alt="..."/>
             </div>
             <div class="carousel-item">
             <img src={header2}class="d-block w-100" alt="..."/>
