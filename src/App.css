@@ -357,7 +357,22 @@ lite-youtube{
     z-index: 500;
     padding: 20px;
 }
+.price{
+    width: 200px;
+    background-color: white;
+    text-decoration: none;
+    border:1px solid black;
+    margin-bottom: 15px;
+}
+.price a{
+    text-decoration: none;
+    color: black;
+}
+.price:hover{
+    background-color: rgba(0, 242, 250, 0.425);
+    text-decoration: nrgba(2, 196, 179, 0.301);
 
+}
 .forms{
     background-image: url(./imagenes/7.jpeg);
     background-position: center;
