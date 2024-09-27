@@ -6,41 +6,40 @@ import imagen4c from "../imagenes/c4.jpeg"
 
 function Circuitos(){
     return(
-        <div id="circuitos" className="circuitos">
-        <h2 class="mt-5 text-center" data-aos="fade-up" >Conoce nuestros circuitos</h2>
-        <div className="d-flex flex-column align-items-center mt-5 w-50" >
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade mb-5" >
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src={imagen1c}  class="d-block w-100" alt="imagen circuito 1 experiencer" width={300}/>
+        <div id="circuitos" class="circuitos d-flex flex-column align-items-center">
+        <h2 class="text-center p-5" data-aos="fade-up">Conoce nuestros circuitos</h2>
+        <div class="boxcir d-flex flex-column flex-md-column flex-lg-row flex-xl-row justify-content-center  ">
+            <div class="d-flex flex-column align-items-center zindexc w-75 mt-5 ">
+                <img src={imagen1c} alt="imagen1c" width={280} />
+                <h5 class="zindexc mt-3">Experiencerr</h5>
+                <h6 class="text-center w-100 zindexc mt-2 p-4">
+                    Un circuito ideal para quienes viajan solos o en grupo y desean conocer y explorar lo más destacado del Cerro de Montevideo en poco tiempo.
+                </h6>
             </div>
-            <div class="carousel-item">
-            <img src={imagen2c} class="d-block w-100" alt="imagen circuito 2 paisaje cultural"width={300} />
+            <div class="d-flex flex-column align-items-center zindexc w-75 mt-5">
+                <img src={imagen3c} alt="imagen1c" width={280} />
+                <h5 class="zindexc mt-3">Paisaje Oeste Natural</h5>
+                <h6 class="text-center w-100 zindexc mt-2 p-4">
+                    Este Tour ganador del Sello Montevideo + verde, es un verdadero taller de naturaleza en el que recorremos distintos puntos del Oeste, empezando por el Cerro haciendo avistamiento de aves en el parque Débora Céspedes e interpretamos la relación de las industrias en las costas y la dinámica costera poniendo énfasis en la importancia del medio ambiente.
+                </h6>
             </div>
-            <div class="carousel-item">
-            <img src={imagen3c} class="d-block w-100" alt="imagen circuito 3 paisaje oeste natural" width={300}/>
+            <div class="d-flex flex-column align-items-center zindexc w-75 mt-5">
+                <img src={imagen2c} alt="imagen1c" width={280} />
+                <h5 class="zindexc mt-3">Paisaje Cultural</h5>
+                <h6 class="text-center w-100 zindexc mt-2 p-4">
+                    Un recorrido de 3 hs por exposiciones de arte a cielo abierto y cerradas, como la muestra de Eduardo Labraga en la Casa de la Pólvora y la de Gurvich en el FLorencio Sanchez. Te harán vibrar todos los sentidos y expresiones de un barrio a través del arte.
+                </h6>
             </div>
-            <div class="carousel-item">
-            <img src={imagen4c} class="d-block w-100" alt="imagen circuito 3 el camino del inmigrante" width={300}/>
+            <div class="d-flex flex-column align-items-center zindexc w-75 mt-5">
+                <img src={imagen4c} alt="imagen1c" width={280} />
+                <h5 class="zindexc mt-3">El camino del inmigrante</h5>
+                <h6 class="text-center w-100 zindexc mt-2 p-4">
+                    El Cerro de Montevideo fue creado en 1834 como barrio satélite para albergar la inmimgración que iba a ser muy numerosa y lo fue, por eso las calles llevan los nombres de todas las nacionalidades que provenían. Este tour recrea como fue la vida de estos inmigrantes en el Cerro, pasando por su trabajo en los frigoríficos, visitamos el ex Artigas, hoy PTI Cerro, clubes sociales como el Lituano, hasta las distintas formas de construir las casillas de chapa.
+                                    </h6>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-        </div>
-        </div>
-        </div>
+    </div>
+    
     )
 }
 

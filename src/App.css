@@ -93,8 +93,8 @@ body{
 }
 
 nav {
-    z-index: 8;
-    background-color: rgba(209, 209, 209, 0.377);
+    z-index: 60;
+    background-color: rgb(226, 226, 226);
 }
 
 
@@ -224,7 +224,10 @@ p{
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.507);
 }
-
+.zindexc{
+    z-index: 40;
+    color: rgb(0, 0, 0);
+}
 .zindex{
     z-index: 40;
     cursor: pointer;
@@ -322,31 +325,21 @@ lite-youtube{
 }
 
 .circuitos{
-    background-image: url(./imagenes/circ.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgba(92, 244, 255, 0.432);
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     min-height: 500px;
+    z-index: 2;
+    
+
 }
 
-.circuitos::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-}
+
 .circuitos h2{
-    color: rgb(255, 255, 255);
-    z-index: 30;
+    color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 500;
+    padding: 20px;
 }
-
 
 .forms{
     background-image: url(./imagenes/7.jpeg);
@@ -477,13 +470,15 @@ form{
     width: 260px;
     }
     .boxinfo2{
-        width: 520px;
+        width: 400px;
     }
     .navbar-brand{
         margin-left: 30px;
     }
-    .cont{
-        
+    .boxcir{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .car{
         width: 100%;

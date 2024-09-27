@@ -19,49 +19,49 @@ function Lugares(){
                 <div class="carousel-item active">
                 <img src={img1} class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-md-block">
-                    <h5>First slide label</h5>
+                    <h5>Fortaleza Gral. Artigas</h5>
                 </div>
                 </div>
                 <div class="carousel-item">
                 <img src={img2} class="d-block w-100" alt="..." />
                 <div class="carousel-caption d-md-block">
-                    <h5>Second slide label</h5>
+                    <h5>PTI Cerro</h5>
                 </div>
                 </div>
                 <div class="carousel-item">
                 <img src={img3} class="d-block w-100" alt="..." /> 
                 <div class="carousel-caption d-md-block">
-                    <h5>Third slide label</h5>
+                    <h5>Mural del Troccoli</h5>
                 </div>
                 </div>
                 <div class="carousel-item">
                 <img src={img4} class="d-block w-100" alt="..." /> 
                 <div class="carousel-caption d-md-block">
-                    <h5>Third slide label</h5>
+                    <h5>Plaza del Inmigrante</h5>
                 </div>
                 </div>
                 <div class="carousel-item">
                 <img src={img5} class="d-block w-100" alt="..." /> 
                 <div class="carousel-caption d-md-block">
-                    <h5>Third slide label</h5>
+                    <h5>Casa de la Polvora</h5>
                 </div>
                 </div>
                 <div class="carousel-item">
                 <img src={img6} class="d-block w-100" alt="..." /> 
                 <div class="carousel-caption d-md-block">
-                    <h5>Third slide label</h5>
+                    <h5>Memorial de los Detenidos Desaparecidos</h5>
                 </div>
                 </div>
                 <div class="carousel-item">
                 <img src={img7} class="d-block w-100" alt="..." /> 
                 <div class="carousel-caption d-md-block">
-                    <h5>Third slide label</h5>
+                    <h5>Casa del señor de los Azulejos</h5>
                 </div>
                 </div>
                 <div class="carousel-item">
                 <img src={img8} class="d-block w-100" alt="..." /> 
                 <div class="carousel-caption d-md-block">
-                    <h5>Third slide label</h5>
+                    <h5>Teatro Florencio Sanchez</h5>
                 </div>
                 </div>
             </div>
