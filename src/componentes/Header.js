@@ -6,17 +6,16 @@ import header3 from '../imagenes/header3.jpeg';
 
 function Header (){
     return(
-        <div className="">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
+         <div id="carouselExampleAutoplaying" class="carousel slide carouselheader" data-bs-ride="carousel">
+        <div class="carousel-inner cinnerh">
             <div class="carousel-item active">
-            <img src={header3} class="d-block w-100" alt="..."/>
+            <img src={header1} class=" w-100 " alt="..."/>
             </div>
             <div class="carousel-item">
-            <img src={header2}class="d-block w-100" alt="..."/>
+            <img src={header2}class=" w-100" alt="..."/>
             </div>
             <div class="carousel-item">
-            <img src={header3} class="d-block w-100" alt="..."/>
+            <img src={header3} class=" w-100" alt="..."/>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -28,7 +27,7 @@ function Header (){
             <span class="visually-hidden">Next</span>
         </button>
             </div>
-        </div>
+
 
     )
 }

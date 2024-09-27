@@ -50,7 +50,24 @@ body{
     background: rgb(0, 0, 0, 0.5);
     z-index: 2;    
 }
+.carouselheader {
+    height: 600px; /* Ajusta según tus necesidades */
+    overflow: hidden; /* Evita el desbordamiento */
+}
 
+.carouselheader .carousel-item {
+    height: 100%; /* Hace que cada item ocupe toda la altura del contenedor */
+}
+
+.carouselheader .carousel-item img {
+    height:600px; /* Ocupa toda la altura */
+    object-position:center;
+    object-fit: cover;
+}
+
+.carouselheader .carousel-inner{
+    height: 600px;
+}
 .title{
     position: absolute;
     top: 40%;
@@ -458,7 +475,10 @@ form{
         width: 100%;
         margin-left: 30px;
     }
-
+    .navbar-toggler{
+        margin-right:70px;
+        color: black;
+    }
 
     .images img{
        margin:10px;
@@ -484,6 +504,10 @@ form{
         width: 100%;
         height: 100%;
     }
+    .atm img{
+        width: 120px;
+        height: 110px;
+    }
    
 }
 
@@ -501,10 +525,22 @@ form{
         url('./imagenes/header.jpeg');
         background-position: center;
     }
+
+    .navbar-collapse{
+        width: 100%;
+        margin-left: 70px;
+    }
+    .navbar-brand{
+        margin-left: 80px;
+    }
     .boxinfo2{
         width: 345px;
         height: 440px;
         padding: 5px;
+    }
+    .atm img{
+        width: 110px;
+        height: 100px;
     }
 
 }
@@ -534,6 +570,13 @@ form{
 }
 
 @media screen and (max-width: 500px) {
+    .navbar-collapse{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .navbar-brand{
+        margin-left: 20px;
+    }
     .boxinfo2{
         width: 280px;
     }

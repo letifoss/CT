@@ -4,7 +4,7 @@ import logo from '../imagenes/logo22.png'
 
 function Navbar(){
     return(
-    <nav className="navbar navbar-expand-lg navbar-dark w-100">
+    <nav className="navbar navbar-expand-lg w-100">
     <div className="container-fluid">
     <a className="navbar-brand" href="#" > <img src={logo} alt="logo principal cerrotours" width="50px" /></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
