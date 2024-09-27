@@ -8,11 +8,11 @@ function Header (){
     return(
          <div id="carouselExampleAutoplaying" class="carousel slide carouselheader" data-bs-ride="carousel">
         <div class="carousel-inner cinnerh">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="1000">
             <img src={header1} class=" w-100 " alt="..."/>
             </div>
             <div class="carousel-item">
-            <img src={header2}class=" w-100" alt="..."/>
+            <img src={header2}class=" w-100" alt="..."data-bs-interval="1000"/>
             </div>
             <div class="carousel-item">
             <img src={header3} class=" w-100" alt="..."/>
