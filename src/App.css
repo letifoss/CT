@@ -51,16 +51,16 @@ body{
     z-index: 2;    
 }
 .carouselheader {
-    height: 600px; /* Ajusta según tus necesidades */
-    overflow: hidden; /* Evita el desbordamiento */
+    height: 600px; 
+    overflow: hidden; 
 }
 
 .carouselheader .carousel-item {
-    height: 100%; /* Hace que cada item ocupe toda la altura del contenedor */
+    height: 100%; 
 }
 
 .carouselheader .carousel-item img {
-    height:600px; /* Ocupa toda la altura */
+    height:600px;
     object-position:center;
     object-fit: cover;
 }
@@ -185,8 +185,8 @@ p{
 }
 
 .buttinfo{
-    width: 350px;
-    min-height: 100px;
+    width: 500px;
+    min-height: 180px;
     background-color: rgba(255, 255, 255, 0.712);
     border-radius: 12px;
     border: none;
@@ -270,7 +270,7 @@ p{
 }
 
 .boxcol{
-    width: 500px;
+    width: 480px;
     min-height: 200px;
     background-color: rgba(255, 255, 255, 0.829);
     border-radius: 12px;
@@ -329,8 +329,8 @@ p{
     overflow: hidden;
 }
 .video{
-    width: 330px;
-    height: 320px;
+    width: 400px;
+    height: 400px;
     z-index: 200;
     margin-bottom: 40px;
     margin-top: 20px;
@@ -498,8 +498,11 @@ form{
     .images img{
        margin:10px;
     }
+    .boxcol{
+        width: 450px;
+    }
     .buttinfo{
-        width: 300px;
+        width: 450px;
     }
     .boxinfo1{
     width: 260px;
@@ -619,6 +622,7 @@ form{
     }
     .buttinfo{
         color: black;
+        width: 350px;
     }
  
     .footer{
@@ -633,6 +637,9 @@ form{
         height: 470px;
         padding: 5px;
     }
+    .boxcol{
+        width: 340px;
+    }
     .atm{
         display: flex;
         flex-direction: column;
@@ -642,13 +649,13 @@ form{
 
 
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
     .places{
         width: 300px;
         height: 300px;
     }
     .buttinfo{
-        width: 260px;
+        width: 300px;
     }
 
 }
